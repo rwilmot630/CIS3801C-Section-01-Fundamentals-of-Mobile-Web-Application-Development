@@ -1,0 +1,95 @@
+@media screen and (min-width: 1501px) {
+
+#logo {
+  float: left;
+  max-width: 200px;
+  padding-right: 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+nav {
+  float: right;
+  position: relative;
+  bottom: 120px;
+}
+
+html {
+  background-color: f66767;
+  font-family: 'Alegreya', serif;
+}
+
+header {
+  height: 200px;
+}
+
+body {
+  display: table;
+}
+
+#left-col {
+  float: left;
+  width: 60%;
+}
+
+#right-col {
+  float: right;
+  width: 40%;
+}
+
+button {
+  margin-right: 20px;
+  font-size: 16px;
+  border-radius:2em;
+  transition-duration: 0.4s;
+}
+
+ button:hover {
+  background-color: DarkGray;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#menu {
+  position: relative;
+  bottom: 50px;
+  height: 60%;
+}
+
+}
+
+@media screen and (max-width: 1500px) {
+#logo {
+  float: left;
+  max-width: 150px;
+  padding-right: 15px;
+}
+
+html {
+  background-color: f66767;
+  font-family: 'Alegreya', serif;
+}
+
+button {
+  margin-right: 20px;
+  font-size: 16px;
+  border-radius:2em;
+  transition-duration: 0.4s;
+}
+
+  button:hover {
+  background-color: DarkGray;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#left-col {
+  background-color: f9d5bb;
+  margin-top: 20px;
+}
+
+#right-col {
+  display: none;
+}
+
+}
