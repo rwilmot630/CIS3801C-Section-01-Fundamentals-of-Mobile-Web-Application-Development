@@ -4,7 +4,7 @@ This is the github repository for my mobile web project.
 
 ### Installation
 
-This site is html and php, therefore you can simply download it and host it anywhere. However, it does rely on a local database to serve the menu items. Once you have a database, you can simply edit the connection information located in config.php to allow this site to connect properly.
+This site is html and php, therefore you can simply download it and host it anywhere. See module_06/project for a zip of the whole final project. However, it does rely on a local database to serve the menu items. Once you have a database, you can simply edit the connection information located in config.php to allow this site to connect properly.
 
 ### Usage
 
